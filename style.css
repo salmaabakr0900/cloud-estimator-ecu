@@ -1,0 +1,97 @@
+:root {
+    --ecu-red: #B22222; /* Crimson Red */
+    --ecu-gold: #FFD700; /* Gold */
+    --ecu-dark: #1a1a1a;
+    --ecu-light: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 95%;
+    max-width: 450px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: var(--ecu-red);
+    border-bottom: 3px solid var(--ecu-gold);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.calculator-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    border-top: 5px solid var(--ecu-red);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--ecu-dark);
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--ecu-red);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8B0000;
+    box-shadow: 0 4px 12px rgba(178, 34, 34, 0.3);
+}
+
+.result-box {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #fff9e6; /* Light gold tint */
+    border-radius: 8px;
+    border: 1px solid var(--ecu-gold);
+    text-align: center;
+}
+
+#totalPrice {
+    color: var(--ecu-red);
+    font-size: 2.2rem;
+    margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #666;
+}

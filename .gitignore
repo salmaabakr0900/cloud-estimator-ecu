@@ -1,0 +1,14 @@
+# Firebase logs and temporary files
+firebase-debug.log
+.firebase/
+firebug.log
+
+# Node modules (if you used npm)
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
